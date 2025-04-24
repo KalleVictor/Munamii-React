@@ -15,19 +15,19 @@ export default function Header() {
       </button>
       <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
         <ul>
-          <li><Link to="/home" onClick={toggleMenu}>Home</Link></li>
-          <li><Link to="/about" onClick={toggleMenu}>About</Link></li>
-          <li><Link to="/products" onClick={toggleMenu}>Products</Link></li>
-          <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+          <li><Link to="./home" onClick={toggleMenu}>Home</Link></li>
+          <li><Link to="./about" onClick={toggleMenu}>About</Link></li>
+          <li><Link to="./products" onClick={toggleMenu}>Products</Link></li>
+          <li><Link to="./contact" onClick={toggleMenu}>Contact</Link></li>
         </ul>
       </nav>
 
       <nav className="nav-desktop">
         <ul>
-          <li><Link to="/home" className="btn">Home</Link></li>
-          <li><Link to="/about" className="btn">About</Link></li>
-          <li><Link to="/products" className="btn">Products</Link></li>
-          <li><Link to="/contact" className="btn">Contact</Link></li>
+          <li><Link to="./home" className="btn">Home</Link></li>
+          <li><Link to="./about" className="btn">About</Link></li>
+          <li><Link to="./products" className="btn">Products</Link></li>
+          <li><Link to="./contact" className="btn">Contact</Link></li>
         </ul>
       </nav>
     </header>

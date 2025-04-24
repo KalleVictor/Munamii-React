@@ -1,7 +1,6 @@
 import React from 'react'
 import facebook from '../assets/facebook.png'
 import instagram from '../assets/instagram.png'
-import { Link } from 'react-router'
 
 export default function Footer() {
   return (

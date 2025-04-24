@@ -1,6 +1,9 @@
 {
   "homepage": "https://kallevictor.github.io/Munamii-React/",
   "name": "react-router",
+  "description": "Munamii React App",
+  "author": "kallevictor",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
