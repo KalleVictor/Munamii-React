@@ -36,3 +36,287 @@
     transform: rotate(360deg);
   }
 }
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap into new rows */
+  list-style-type: none;
+  justify-content: center; /* Optional: centers content nicely */
+  margin: 0;
+  gap: 1px; /* Optional: adds spacing between items */
+}
+
+li {
+  display: inline-block;
+  margin: 0 2px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn {
+  background-color: white; /* Button background color */
+  border: 2px solid lightblue; /* Button border color */
+  color: #333;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  font-size: 1.2em; /* Responsive font size for mobile */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+.btn:hover {
+  color: lightblue; /* Change text color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+header {
+  background: repeating-linear-gradient(
+    45deg,                 /* angle of the stripes */
+    lightblue,             /* base color */
+    lightblue 10px,        /* stripe thickness */
+    white 10px,            /* start of next stripe */
+    white 20px             /* white stripe thickness */
+  );
+  color: white;
+  padding: 20px;
+  max-width: 900px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: solid 1px lightblue;
+  box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo-pic{
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 2px lightblue;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: repeating-linear-gradient(
+    45deg,                 /* angle of the stripes */
+    lightblue,             /* base color */
+    lightblue 10px,        /* stripe thickness */
+    white 10px,            /* start of next stripe */
+    white 20px             /* white stripe thickness */
+  );
+  padding: 20px;
+  max-width: 900px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top: solid 1px lightblue;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: 'Rouge Script', cursive;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-btn2 {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  padding: 1%;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn2:hover {
+  transform: scale(1.1);
+  background-color: #e0e0e0;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+.icon-btn2 img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.footer-text {
+  margin-top: -5px;
+}
+.footer-text a{
+  text-decoration: none;
+  color: #333; /* Base text color for mobile */
+  padding: 0px 0px;
+  display: block;
+  border-radius: 0px;
+}
+.footer-text a:hover {
+  color: mediumblue; /* Change text color on hover */
+  text-shadow: lightblue 0px 0px 5px; /* Optional: add a shadow effect on hover */
+  text-decoration: underline; /* Optional: underline on hover */
+  transition: text-shadow 0.3s, color 0.3s; /* Smooth transition for the hover effect */
+}
+
+.cart-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.cart-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.products-img {
+  max-width: 150px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: solid 2px lightblue;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.products-toggle-div {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap into new rows */
+  justify-content: center; /* Optional: centers content nicely */
+  margin: 0 auto;
+  gap: 1px; /* Optional: adds spacing between items */
+}
+
+
+.products-toggle-div li:hover {
+  transform: scale(1.05); /* Slightly enlarge the product card on hover */
+  transition: transform 0.3s; /* Smooth transition for the hover effect */
+}
+
+.products-nav .btn.active {
+  background-color: lightblue; /* Active button background color */
+  color: black;
+  border: 1px solid #999;
+}
+.products-toggle-div p{
+  font-size: 0.8em; /* Responsive font size for mobile */
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.product-footer {
+  margin-top: 10px;
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  border: solid 1px lightblue;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* Slightly enlarge the product card on hover */
+  transition: transform 0.3s; /* Smooth transition for the hover effect */
+}
+
+
+.product-nav {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.btn.active {
+  background-color: lightgray;
+  color: white;
+  border: 1px solid #333;
+}
+
+
+/* Responsive styles for the header */
+
+.hamburger {
+  font-size: 28px;
+  color: #333;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000; /* Ensure the hamburger is above other elements */
+}
+
+/* Nav menu for mobile */
+.nav-menu {
+  display: none;
+}
+
+.nav-menu ul {
+  list-style: none;
+  padding: 10px;
+  background: white;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 10px;
+  border: solid 1px lightblue;
+  box-shadow: #282c34 0px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu.open {
+  display: flex;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+}
+
+/* Desktop nav */
+.nav-desktop ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+}
