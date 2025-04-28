@@ -1,70 +1,96 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Munamii-React
 
-In the project directory, you can run:
+> A **responsive e-commerce website** built with **React**, styled with **Tailwind CSS**, showcasing beautiful pastry and dessert products.
 
-### `npm start`
+![Screenshot of Munamii Website](your-screenshot-url-here) <!-- (optional) Add a screenshot here -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Munamii is an elegant bakery e-commerce platform created to showcase and sell products online.  
+It features **product listings**, **shopping cart functionality**, and a **modern UI** optimized for performance and user experience.
 
-### `npm test`
+## 🛠 Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/) – Frontend library
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run Munamii locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js >= 18.x
+- npm or yarn
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/KalleVictor/Munamii-React.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Navigate into the project directory
+cd Munamii-React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
+# or
+yarn install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Running the App Locally
 
-## Learn More
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Then open [http://localhost:5173](http://localhost:5173) to view it in your browser.  
+*(Vite is used, so the port is likely 5173 by default.)*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🧩 Project Structure
 
-### Code Splitting
+```
+/components   # Reusable React components (Navbar, ProductCard, Cart, etc.)
+/pages        # Different pages (Home, Products, Checkout)
+/context      # Global state (CartContext)
+/assets       # Images and static assets
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 Deployment
 
-### Analyzing the Bundle Size
+You can deploy Munamii on platforms like:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- GitHub Pages (with minor adjustments)
 
-### Making a Progressive Web App
+To deploy on **Vercel**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install -g vercel
+vercel
+```
 
-### Advanced Configuration
+## 🎯 Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Responsive design (mobile-first)
+- Add-to-cart and remove-from-cart functionality
+- Dynamic product rendering
+- Clean, minimalistic UI
+- Easy-to-maintain codebase
 
-### Deployment
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is licensed under the [MIT License](LICENSE).
 
-### `npm run build` fails to minify
+## 🙌 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Inspired by modern bakery shop designs
+- Thanks to the open-source community for tools and libraries
+
+---
+
+Visit https://kallevictor.github.io/Munamii-React/ to view the final result. 
